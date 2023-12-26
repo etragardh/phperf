@@ -24,3 +24,24 @@ PHPerf::stop();
 ```
 
 Take a look in the sample.php
+
+
+### Sample
+
+Run the sample from terminal
+```
+cd phperf/
+php sample.php
+```
+
+Or write your own test
+```
+<?php
+require_once( '/path/to/class-phperf.php' );
+PHPerf::start();
+for ( $i=0; $i<=1000; $i++) {
+    echo "Iteration: " . $i . "\r\n";
+}
+PHPerf::stop();
+?>
+```
