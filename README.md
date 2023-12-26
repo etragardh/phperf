@@ -1,6 +1,13 @@
 # phperf
 Measure performance of php scripts
 
+## Demo output
+´´´
+##############################################
+# Time		97.73625 ms
+# Max Memory	48.6304 mb
+´´´
+
 ### Installation
 ```
 gh repo clone etragardh/phperf
