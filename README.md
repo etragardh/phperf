@@ -23,15 +23,15 @@ Stop and print the results
 PHPerf::stop();
 ```
 
-Take a look in the sample.php
+Take a look in the example.php
 
 
-### Sample
+### Example
 
-Run the sample from terminal
+Run the example from terminal
 ```
-cd phperf/
-php sample.php
+cd phperf/example
+php example.php
 ```
 
 Or write your own test

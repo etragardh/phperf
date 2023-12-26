@@ -31,10 +31,10 @@ class PHPerf {
   public static function stop() {
     $time = hrtime( true );
     $diff = ( $time - self::$start ) / 100000;
+    echo "##############################################\r\n";
     // Time is displayd in ms with maximum precision
-    echo "Time: $diff ms\r\n";
+    echo "# Time\t\t$diff ms\r\n";
     // Memory is displayed in mb with reasonable precision.
-    echo "Max Memory: " . round( memory_get_peak_usage() / 1024 / 1024, 4 ) . " mb\r\n";
+    echo "# Max Memory\t" . round( memory_get_peak_usage() / 1024 / 1024, 4 ) . " mb\r\n";
   }
-
 }
