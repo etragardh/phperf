@@ -1,7 +1,7 @@
 # phperf
 Measure performance of php scripts
 
-## Demo output
+### Demo output
 ```
 ##############################################
 # Time		97.73625 ms
