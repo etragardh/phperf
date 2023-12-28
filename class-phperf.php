@@ -37,11 +37,6 @@ class PHPerf {
    * IE unset( $large_var ); large variables before measuring.
    */
 
-  #################################################################
-  # Session:    PHPerf Testing
-  # Time:       0.032 ms
-  # Max Memory  12 mb
-  #
   public static function stop() {
     $time = hrtime( true );
     $diff = ( $time - self::$start ) / 100000;
